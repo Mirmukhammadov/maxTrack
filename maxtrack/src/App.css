@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 30px 20px;
+  width: 1350px;
+}
+
+.form-div {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 10px;
+  max-width: 600px;
+  background-color: white;
+  padding: 4px 15px;
+  border-radius: 15px;
+}
+
+.heading2 {
+  font-family: "Inter", sans-serif; /* Ensure you have imported the Inter font */
+  font-size: 18px;
+  font-weight: 600; /* Semibold weight */
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.heading1 {
+  .display-sm-semibold {
+    font-family: "Inter", sans-serif; /* Ensure the Inter font is included */
+    font-size: 30px;
+    font-weight: 600; /* Semibold weight */
+    line-height: 38px;
+    letter-spacing: -0.02em;
+    text-align: left;
+  }
+}

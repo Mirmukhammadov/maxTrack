@@ -1,0 +1,37 @@
+.formHead-display {
+  display: none;
+}
+
+.form-show {
+  display: block;
+}
+.formHead-main {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.forma {
+  padding: 15px 5px;
+}
+
+.tab-container {
+  max-width: 600px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.formHead {
+  cursor: pointer;
+  text-align: center;
+  position: relative;
+  transition: color 0.3s;
+  padding-bottom: 7px;
+}
+
+.formHead {
+  border-bottom: 2px solid white;
+  padding: 5px;
+}
